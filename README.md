@@ -21,10 +21,12 @@ To add a new house, send a POST request to /houses with the following JSON body:
 
 Adding a Room
 To add a room to a house, send a POST request to /houses/{houseId}/rooms with the following JSON body:
+
 {
   "name": "Room Name",
   "area": 100
 }
+
 Updating a House
 To update a house, send a PUT request to /houses/{houseId} with the updated house information in the JSON body.
 
